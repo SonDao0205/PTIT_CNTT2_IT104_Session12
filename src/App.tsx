@@ -1,10 +1,10 @@
 import React from 'react';
-import AdminIndex from './components/Bai6/AdminIndex';
+import UserLayout from './components/Bai7/UserLayout';
 
 function App() {
   return (
     <>
-      <AdminIndex/>
+      <UserLayout/>
     </>
   );
 }
