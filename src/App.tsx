@@ -1,10 +1,10 @@
 import React from 'react';
-import PTIT_CNTT2_IT104_Session12_Bai10 from './components/PTIT_CNTT2_IT104_Session12_Bai10'; 
+import TodoListIndex from './components/TodoListIndex';
 
 function App() {
   return (
     <>
-      <PTIT_CNTT2_IT104_Session12_Bai10/>
+      <TodoListIndex/>
     </>
   );
 }
