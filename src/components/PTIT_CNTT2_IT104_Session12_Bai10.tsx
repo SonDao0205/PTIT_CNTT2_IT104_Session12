@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import { Component } from 'react'
 import "../styles/style.css"
 export default class PTIT_CNTT2_IT104_Session12_Bai10 extends Component {
   render() {
