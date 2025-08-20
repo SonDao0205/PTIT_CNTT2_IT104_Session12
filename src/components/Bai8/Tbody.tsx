@@ -1,6 +1,6 @@
-import React, { Component } from 'react'
-import "../styles/PTIT_CNTT2_IT104_Session12_Bai8.css"
-export default class PTIT_CNTT2_IT104_Session12_Bai8 extends Component {
+import{ Component } from 'react'
+
+export default class Tbody extends Component {
   render() {
     const user = [
         {
@@ -17,19 +17,7 @@ export default class PTIT_CNTT2_IT104_Session12_Bai8 extends Component {
         }
     ]
     return (
-      <React.Fragment>
-        <table>
-          <thead>
-              <tr>
-                <th>STT</th>
-                <th>Họ và Tên</th>
-                <th>Ngày sinh</th>
-                <th>Giới tính</th>
-                <th>Địa chỉ</th>
-                <th>Hành động</th>
-              </tr>
-          </thead>
-          <tbody>
+      <>
             {user.map((ele,index) => {
               return <tr>
                   <td>{index+1}</td>
@@ -43,9 +31,7 @@ export default class PTIT_CNTT2_IT104_Session12_Bai8 extends Component {
                   </td>
               </tr> 
           })}
-          </tbody>
-        </table>
-      </React.Fragment>
+        </>
     )
   }
 }

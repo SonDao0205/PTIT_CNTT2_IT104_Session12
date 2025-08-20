@@ -1,10 +1,10 @@
 import React from 'react';
-import UserLayout from './components/Bai7/UserLayout';
+import Table from './components/Bai8/Table';
 
 function App() {
   return (
     <>
-      <UserLayout/>
+      <Table/>
     </>
   );
 }
