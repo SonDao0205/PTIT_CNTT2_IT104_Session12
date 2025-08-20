@@ -1,10 +1,10 @@
 import React from 'react';
-import TodoListIndex from './components/TodoListIndex';
+import AdminIndex from './components/Bai6/AdminIndex';
 
 function App() {
   return (
     <>
-      <TodoListIndex/>
+      <AdminIndex/>
     </>
   );
 }
